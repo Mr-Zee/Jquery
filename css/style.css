@@ -30,6 +30,7 @@ img {
 }
 
 .container {
+    display: inline;
     text-align: center;
     padding: 2px 16px;
 }
@@ -50,4 +51,22 @@ button {
 .btn-part {
     display: flex;
     justify-content: center;
+}
+
+.card-part {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-part {
+    padding: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box-head {
+    background: rgb(79, 174, 230);
 }
